@@ -17,19 +17,19 @@ if len(sys.argv)==1:
 collection = sys.argv[1]
 
 # read and parse input data - extract words, identifiers and titles
-f = open (collection, "r")
-identifier = ''
-document = ''
-title = ''
-indocument = False
-intitle = False
-data = {}
-titles = {}
-for line in f:
+f = open (collection, "r") #open the collection for reading; collection here refers to the document e.g apples
+identifier = '' #intilaise the identifier
+document = '' #initalize the document
+title = '' #initialize the title
+indocument = False # initialize the indocument to false
+intitle = False # intiilaize the intitle to false
+data = {} #initialize a set of data
+titles = {} #initialize a set if titles
+for line in f: #loop across line in the collection
     mo = re.match (r'\.I ([0-9]+)', line)
     if mo:
         if document!='':
-            data[identifier] = document
+            data[identifier] = document # intialize a set of data taking strings from document
         identifier = mo.group (1)
         indoc = False
     else:
@@ -46,7 +46,7 @@ for line in f:
                if intitle:
                    intitle = False
                    if identifier!='':
-                      titles[identifier] = line[:-1][:50]
+                      titles[identifier] = line[:-1][:50] #trying to understand here
                elif indoc:
                    document += " "
                    if parameters.case_folding:
@@ -99,4 +99,3 @@ for key in index:
 f = open (collection+"_index_N", "w")
 print (N, file=f)
 f.close ()
-    

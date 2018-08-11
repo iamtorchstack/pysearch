@@ -12,15 +12,15 @@ import porter
 import parameters
 
 # check parameter for collection name
-if len(sys.argv)<3:
-   print ("Syntax: query.py <collection> <query>")
-   exit(0)
+if len(sys.argv)<3: #truth value of index less than 3
+   print ("Syntax: query.py <collection> <query>") #print htis syntax
+   exit(0) # then exit the code
  
 # construct collection and query
-collection = sys.argv[1]
-query = ''
-arg_index = 2
-while arg_index < len(sys.argv):
+collection = sys.argv[1] #pick the second argument
+query = '' #initializing string query
+arg_index = 2 #intializing arg index to zero
+while arg_index < len(sys.argv): #
    query += sys.argv[arg_index] + ' '
    arg_index += 1
 
