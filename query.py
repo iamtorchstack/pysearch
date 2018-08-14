@@ -1,41 +1,45 @@
 # Simple extended boolean search engine: query module
 # Hussein Suleman
+#thesarus added by Tochukwu Oba
 # 14 April 2016
 
 import re
 import math
 import sys
 import os
-
 import porter
-
 import parameters
 
 # check parameter for collection name
-if len(sys.argv)<3: #truth value of index less than 3
+if len(sys.argv)<3: #truth value of length of arguemnt less than 3
    print ("Syntax: query.py <collection> <query>") #print htis syntax
    exit(0) # then exit the code
  
 # construct collection and query
-collection = sys.argv[1] #pick the second argument
+collection = sys.argv[1] #pick the first argument
 query = '' #initializing string query
 arg_index = 2 #intializing arg index to zero
-while arg_index < len(sys.argv): #
-   query += sys.argv[arg_index] + ' '
-   arg_index += 1
+while arg_index < len(sys.argv): #arg in
+   query += sys.argv[arg_index] + ' ' #populate the query
+   arg_index += 1 #increase the count
 
 # clean query
-if parameters.case_folding:
-   query = query.lower ()
-query = re.sub (r'[^ a-zA-Z0-9]', ' ', query)
+if parameters.case_folding: #if parameter.casefolding is true
+   query = query.lower () #convert all the query to lower case
+query = re.sub (r'[^ a-zA-Z0-9]', ' ', query) #
 query = re.sub (r'\s+', ' ', query)
 query_words = query.split (' ')
+
+print (query_words)
+print(type(query_words))
 
 # create accumulators and other data structures
 accum = {}
 filenames = []
 p = porter.PorterStemmer ()
 
+
+print (query_words)
 # get N
 f = open (collection+"_index_N", "r")
 N = eval (f.read ())
@@ -62,6 +66,9 @@ for term in query_words:
            idf = 1/df
            if parameters.log_idf:
               idf = math.log (1 + N/df)
+
+        #create the theserus here ======================================================
+
         for line in lines:
             mo = re.match (r'([0-9]+)\:([0-9\.]+)', line)
             if mo:

@@ -5,10 +5,10 @@
 import os
 import re
 import sys
-
+from nltk import wordnet as wn
 import porter
-
 import parameters
+
 
 # check parameter for collection name
 if len(sys.argv)==1:
@@ -29,7 +29,7 @@ for line in f: #loop across line in the collection
     mo = re.match (r'\.I ([0-9]+)', line)
     if mo:
         if document!='':
-            data[identifier] = document # intialize a set of data taking strings from document
+            data[identifier] = document # intialize a dictionary of data taking strings from document
         identifier = mo.group (1)
         indoc = False
     else:

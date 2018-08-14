@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ac0136-28bb-4781-8a83-ea4a374f5d64" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/docu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/query.py" afterDir="false" />
@@ -13,39 +14,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/simple_search$query.coverage" NAME="query Coverage Results" MODIFIED="1534249930195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
-              <folding>
-                <element signature="e#110#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="and" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apples_index/and">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="angles" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apples_index/angles">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="apple" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apples_index/apple">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="appling" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apples_index/appling">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="apples_index_len" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apples_index_len">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cran.all.1400" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cran.all.1400">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="porter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/porter.py">
+      <file leaf-file-name="query.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/query.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="252">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <element signature="e#89#98#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,30 +69,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-              <folding>
-                <element signature="e#89#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="apples" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apples">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apples_index_N" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apples_index_N">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="cran.all.1400" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cran.all.1400">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="28776" column="34" lean-forward="true" selection-start-line="28776" selection-start-column="34" selection-end-line="28776" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="761">
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="30" />
+              <folding>
+                <element signature="e#110#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -94,6 +108,14 @@
       <find>g</find>
       <find>len</find>
       <find>parameters</find>
+      <find>[2]</find>
+      <find>query_words</find>
+      <find>term</find>
+      <find>stem</find>
+      <find>free fli</find>
+      <find>139</find>
+      <find>on transverse vibrations of thin, shallow elastic</find>
+      <find>p</find>
       <find>data</find>
     </findStrings>
   </component>
@@ -103,8 +125,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/query.py" />
         <option value="$PROJECT_DIR$/index.py" />
+        <option value="$PROJECT_DIR$/porter.py" />
+        <option value="$PROJECT_DIR$/query.py" />
       </list>
     </option>
   </component>
@@ -136,6 +159,15 @@
               <item name="simple_search" type="b2602c69:ProjectViewProjectNode" />
               <item name="simple_search" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="simple_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="simple_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (Introduction to Python) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,6 +179,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,6 +192,32 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="query" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="simple_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/query.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.query" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -175,30 +234,52 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2523511" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="right" id="SciView" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4028213" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13069908" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3291536" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.3291536" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3291536" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.2523511" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -208,47 +289,91 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/query.py">
+    <entry file="file://$PROJECT_DIR$/docu">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index_N">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/at">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/attack">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/porter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-          <folding>
-            <element signature="e#89#98#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-3266">
+          <caret line="64" column="69" selection-start-line="64" selection-start-column="69" selection-end-line="64" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cran.all.1400">
+    <entry file="file://$PROJECT_DIR$/cran.all.1400_index_N">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.py">
+    <entry file="file://$PROJECT_DIR$/cran.all.1400_index_len">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
-          <folding>
-            <element signature="e#110#119#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2914">
+          <caret line="1033" column="8" lean-forward="true" selection-start-line="1033" selection-start-column="8" selection-end-line="1033" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/a">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/after">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/agree">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/an">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/and">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/angles">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/apple">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index/appling">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apples_index_len">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apples">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apples_index_N">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apples_index_len">
+    <entry file="file://$PROJECT_DIR$/cran.all.1400">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="227">
+          <caret line="28776" column="34" lean-forward="true" selection-start-line="28776" selection-start-column="34" selection-end-line="28776" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="30" />
+          <folding>
+            <element signature="e#110#119#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -259,10 +384,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/porter.py">
+    <entry file="file://$PROJECT_DIR$/query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="252">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="e#89#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
